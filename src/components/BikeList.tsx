@@ -14,7 +14,6 @@ const BikeList = () => {
 
   return (
     <div>
-      {/* <label data-testid="header">Test</label> */}
       {bikes.map((bike) => (
         <SingleBikeCard bike={bike} key={bike.id} />
       ))}

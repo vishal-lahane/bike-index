@@ -71,7 +71,7 @@ function App() {
       {loader && <Loader />}
       <div className="row justify-content-center my-5">
         <div className="col-md-6 text-center">
-          <h1>BIKE INDEX</h1>
+          <h1 data-testid="bike-header">BIKE INDEX</h1>
           <Filters />
           {error && <ErrorMessage errorMessage={errorMessage} />}
         </div>
